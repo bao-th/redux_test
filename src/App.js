@@ -1,8 +1,13 @@
 import Count from "./containers/Count";
+import Person from "./containers/Person";
 
 function App() {
   return (
-    <Count />
+    <div>
+      <Count />
+      <hr />
+      <Person />
+    </div>
   );
 }
 
